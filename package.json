@@ -1,0 +1,26 @@
+{
+  "name": "@anas-ameur/node-service-management-cli",
+  "version": "1.0.0",
+  "description": "A CLI to manage nodejs windows services",
+  "main": "src/index.js",
+  "bin": {
+    "@anas-ameur/node-service-mangement": "bin/node-service-management",
+    "node-service-mangement": "bin/node-service-management"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.3.3",
+    "node-windows": "^1.0.0-beta.5"
+  }
+}
